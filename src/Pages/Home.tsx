@@ -175,7 +175,7 @@ const Partner = () => {
       </div>
       
       {/* Button */}
-      <button className="text-mulish font-bold text-center text-[0.87rem] text-white bg-btcolor py-[0.93rem] px-[1.125rem] w-[7.3rem] mt-[3rem] md:mt-[3.5rem] lg:mt-[3.75rem]">
+      <button className="font-mulish font-bold text-center text-[0.87rem] text-white bg-btcolor py-[0.93rem] px-[1.125rem] w-[7.3rem] mt-[3rem] md:mt-[3.5rem] lg:mt-[3.75rem]">
         View Details
       </button>
     </div>
@@ -226,7 +226,7 @@ const Partner = () => {
 
     {/* Button */}
     <div className="flex justify-center mt-[1.5rem] md:mt-[1.75rem]">
-      <button className="text-mulish font-bold text-center text-[0.87rem] text-white bg-btcolor py-[0.9rem] px-[1.1rem] w-[7.3rem]">
+      <button className="font-mulish font-bold text-center text-[0.87rem] text-white bg-btcolor py-[0.9rem] px-[1.1rem] w-[7.3rem]">
         Contact
       </button>
     </div>
