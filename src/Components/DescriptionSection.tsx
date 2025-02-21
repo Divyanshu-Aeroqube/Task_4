@@ -26,7 +26,7 @@ const DescriptionSection: React.FC<DescriptionSectionProps> = ({ desc }) => {
             <span className="font-mulish font-bold text-[24px] text-[#373f41]">
               Address: 
             </span>
-            <p className="font-mulish font-semibold text-[20px] text-[#737b7d] inline">
+            <p className="mx-4 font-mulish font-semibold text-[20px] text-[#737b7d] inline">
               {desc.Address}
             </p>
           </div>
@@ -38,7 +38,7 @@ const DescriptionSection: React.FC<DescriptionSectionProps> = ({ desc }) => {
             <span className="font-mulish font-bold text-[24px] text-[#373f41]">
               Contact No.: 
             </span>
-            <p className="font-mulish font-semibold text-[20px] text-[#737b7d] inline">
+            <p className="mx-4 font-mulish font-semibold text-[20px] text-[#737b7d] inline">
               {desc.Contact}
             </p>
           </div>
@@ -50,8 +50,8 @@ const DescriptionSection: React.FC<DescriptionSectionProps> = ({ desc }) => {
             <span className="font-mulish font-bold text-[24px] text-[#373f41]">
               Beds: 
             </span>
-            <p className="font-mulish font-semibold text-[20px] text-[#737b7d] inline">
-              {desc.Beds} Beds
+            <p className="mx-4 font-mulish font-semibold text-[20px] text-[#737b7d] inline">
+              0{desc.Beds} Beds
             </p>
           </div>
           <hr className="w-full border-t border-[#eaeaea]" />
@@ -62,8 +62,8 @@ const DescriptionSection: React.FC<DescriptionSectionProps> = ({ desc }) => {
             <span className="font-mulish font-bold text-[24px] text-[#373f41]">
               Check-In: 
             </span>
-            <p className="font-mulish font-semibold text-[20px] text-[#737b7d] inline">
-              {desc.Check_In}
+            <p className="mx-4 font-mulish font-semibold text-[20px] text-[#737b7d] inline">
+              0{desc.Check_In}
             </p>
           </div>
           <hr className="w-full border-t border-[#eaeaea]" />
@@ -78,7 +78,7 @@ const DescriptionSection: React.FC<DescriptionSectionProps> = ({ desc }) => {
               {desc.Check_Out}
             </p>
           </div>
-          <hr className="w-full border-t border-[#eaeaea]" />
+          <hr className="mx-4 w-full border-t border-[#eaeaea]" />
         </article>
       </section>
     </div>

@@ -27,7 +27,7 @@ const Partner = () => {
         className="w-full mx-auto sm:w-auto h-[22.31rem] sm:mr-[2.68rem] my-[2rem] lg:my-[4rem] sm:my-[7.65rem]"
       />
     </div>
-    <div className="w-full sm:w-[33.75rem] h-auto my-[2rem] sm:my-[7.87rem] text-center sm:text-left">
+    <div className="w-full sm:w-[33.75rem] h-auto my-[2rem] sm:my-[5rem] text-center sm:text-left">
       <h1 className="font-kanit text-[2rem] mb-[1.25rem] text-headColor">
         About Us
       </h1>

@@ -6,16 +6,18 @@ type SideImagesProps = {
 
 const SideImages: React.FC<SideImagesProps> = ({ images }) => {
   return (
-    <section className="grid grid-cols-2 gap-6">
+<section className='w-full'>
+<article className="grid grid-cols-2 gap-6">
       {images.map((image, index) => (
         <img
           key={index}
           src={image}
-          className="rounded-lg h-[110px] w-[155px] object-contain"
+          className="rounded-lg object-contain"
           alt=""
         /> 
       ))}
-    </section>
+    </article>
+</section>
   );
 };
 
