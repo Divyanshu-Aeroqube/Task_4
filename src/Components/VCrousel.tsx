@@ -14,7 +14,7 @@ const VCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
@@ -33,25 +33,11 @@ const VCarousel = () => {
       <div className="relative">
         <img
           src={images[currentIndex]}
-          className="block w-full h-full object-cover"
+          className="block w-full h-[200px] md:h-[300px] lg:h-[500px] object-cover"
           alt={`Slide ${currentIndex + 1}`}
         />
       </div>
 
-
-      {/* Navigation Buttons */}
-      {/* <button
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800/50 text-white p-2 rounded-full"
-        onClick={goToPrevious}
-      >
-        ❮
-      </button>
-      <button
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800/50 text-white p-2 rounded-full"
-        onClick={goToNext}
-      >
-        ❯
-      </button> */}
 
 <button
   className="absolute top-1/2 left-[1rem] transform -translate-y-1/2 z-30 p-2 transition-all hover:scale-110"

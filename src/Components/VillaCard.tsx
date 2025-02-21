@@ -21,7 +21,7 @@ const VillaCard: React.FC<VillaCardProps> = ({ villa }) => {
   return (  
     <section
       key={villa.id}
-      className="relative h-[350px] sm:h-[275px] cursor-pointer"
+      className="relative h-[350px] cursor-pointer"
       onClick={handleClick}
     >
       {/* Image */}
@@ -30,7 +30,7 @@ const VillaCard: React.FC<VillaCardProps> = ({ villa }) => {
       </figure>
 
       {/* Villa Details Box */}
-      <div className="absolute bottom-[8%] sm:bottom-[-10%] md:bottom-[-35%] left-1/2 -translate-x-1/2 bg-white p-4 shadow-md rounded-sm w-[90%]">
+      <div className="absolute bottom-[5%] lg:bottom-[-4%] left-1/2 -translate-x-1/2 bg-white p-4 shadow-md rounded-sm w-[90%]">
         <article className="flex flex-col space-y-2">
           <header className="flex justify-between font-bold">
             <h1 className="font-nunitosans font-bold text-4 text-[#3e3e3e] leading-[27.2px]">{villa.title}</h1>

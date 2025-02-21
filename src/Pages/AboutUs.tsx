@@ -10,14 +10,14 @@ const AboutUs = () => {
       <h1 className='w-[80%] lg:w-[38%] mx-auto font-kanit text-[2rem] text-center text-headColor mb-[1.375rem]'>Welcome To VillaCrest</h1>
 
       <div className='flex flex-col gap-8 w-full sm:w-[80%] mx-auto'>
-      <p className='text-[#737b7d] w-[90%] lg:w-[62%] mx-auto font-mulish text-[1.18rem] text-center text-subheading leading-relaxed'>Vacations are crucial for the souls and when that experience doesn’t go as planned,
+      <p className='text-[#737b7d] w-[90%] lg:w-[62%] mx-auto font-mulish text-[1.18rem] text-center  leading-relaxed'>Vacations are crucial for the souls and when that experience doesn’t go as planned,
       you can’t get that time back.</p>
 
-      <p className='text-[#737b7d]  w-[80%] lg:w-[60%] mx-auto font-mulish text-[1.18rem] text-center text-subheading leading-relaxed'>One of the most significant parts of buying a vacation home is its upkeep and maintenance in the absence of homeowners. Getting a home is an emotional decision but the reality of homeownership is riddled with friction.</p>
+      <p className='text-[#737b7d]  w-[80%] lg:w-[60%] mx-auto font-mulish text-[1.18rem] text-center  leading-relaxed'>One of the most significant parts of buying a vacation home is its upkeep and maintenance in the absence of homeowners. Getting a home is an emotional decision but the reality of homeownership is riddled with friction.</p>
       </div>
     </section>
 
-    <figure className='w-full mb-[1rem] h-[10rem] md:mb-[3.75rem] md:h-[26.25rem]'>
+    <figure className='w-full mb-[1rem] md:mb-[3.75rem]'>
       <img src={about} alt="" className='w-[80%] mx-auto' />
     </figure>
 
@@ -28,10 +28,10 @@ const AboutUs = () => {
   <div className='w-[90%] md:w-[80%] lg:w-1/2 mx-auto my-[2rem] md:my-[6rem] lg:my-[9.5rem]'>
     <h1 className='font-kanit text-[2rem] text-headColor text-center md:text-left mb-[1.375rem]'>Our Mission</h1>
     <div className='flex flex-col gap-6 md:gap-6 lg:gap-8 mr-0 md:mr-0 lg:mr-[4rem]'>
-      <p className='text-[#737b7d] text-center md:text-left font-mulish text-[1.12rem] text-subheading'>
+      <p className='text-[#737b7d] text-center md:text-left font-mulish text-[1.12rem] '>
         Vacations are crucial for the soul, and when that experience doesn’t go as planned, you can’t get that time back.
       </p>
-      <p className='text-[#737b7d] text-center md:text-left font-mulish text-[1.12rem] text-subheading'>
+      <p className='text-[#737b7d] text-center md:text-left font-mulish text-[1.12rem] '>
         One of the most significant parts of buying a vacation home is its upkeep and maintenance in the absence of homeowners. Getting a home is an emotional decision, but the reality of homeownership is riddled with friction.
       </p>
     </div>
@@ -49,7 +49,7 @@ const AboutUs = () => {
   <div className='w-[90%] md:w-[80%] lg:w-1/2 mx-auto my-[2rem] md:my-[6rem] lg:my-[9.5rem]'>
     <h1 className='font-kanit text-[2rem] text-headColor text-center md:text-left mb-[1.375rem]'>Our Vision</h1>
     <div className='flex flex-col gap-6 md:gap-6 lg:gap-8 mr-0 md:mr-0 lg:mr-[4rem]'>
-      <p className='text-[#737b7d] text-center md:text-left font-mulish text-[1.12rem] text-subheading'>
+      <p className='text-[#737b7d] text-center md:text-left font-mulish text-[1.12rem] '>
         Homeowners spend a huge amount of time dealing with the hassles of general property management - fragmented suppliers and vendors, lack of planning and tracking, lack of time to negotiate and monitor capital projects, and having to jump-start their property each time they want to visit. All this costs money and energy and often leads to a disconnect between the experience a homeowner wants from their home and what their experience actually is.
       </p>
     </div>

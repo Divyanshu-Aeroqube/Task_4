@@ -12,7 +12,7 @@ import DetailedVillas from "./Pages/DetailedVila";
 
 const App = () => {
   return (
-    <div  >
+    <div >
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

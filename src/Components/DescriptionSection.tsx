@@ -21,66 +21,67 @@ const DescriptionSection: React.FC<DescriptionSectionProps> = ({ desc }) => {
       </ol>
 
       <section>
-        <article className="flex flex-col items-start justify-start w-full">
-          <div className="text-left py-2">
-            <span className="font-mulish font-bold text-[24px] text-[#373f41]">
-              Address: 
-            </span>
-            <p className="mx-4 font-mulish font-semibold text-[20px] text-[#737b7d] inline">
-              {desc.Address}
-            </p>
-          </div>
-          <hr className="w-full border-t border-[#eaeaea]" />
-        </article>
+  <article className="flex flex-col items-start justify-start w-full">
+    <div className="text-left py-2">
+      <span className="font-mulish font-bold text-[16px] md:text-[24px] text-[#373f41]">
+        Address: 
+      </span>
+      <p className="mx-4 font-mulish font-semibold text-[12px] md:text-[20px] text-[#737b7d] inline">
+        {desc.Address}
+      </p>
+    </div>
+    <hr className="w-full border-t border-[#eaeaea]" />
+  </article>
 
-        <article className="flex flex-col items-start justify-start w-full">
-          <div className="text-left py-2">
-            <span className="font-mulish font-bold text-[24px] text-[#373f41]">
-              Contact No.: 
-            </span>
-            <p className="mx-4 font-mulish font-semibold text-[20px] text-[#737b7d] inline">
-              {desc.Contact}
-            </p>
-          </div>
-          <hr className="w-full border-t border-[#eaeaea]" />
-        </article>
+  <article className="flex flex-col items-start justify-start w-full">
+    <div className="text-left py-2">
+      <span className="font-mulish font-bold text-[16px] md:text-[24px] text-[#373f41]">
+        Contact No.: 
+      </span>
+      <p className="mx-4 font-mulish font-semibold text-[12px] md:text-[20px] text-[#737b7d] inline">
+        {desc.Contact}
+      </p>
+    </div>
+    <hr className="w-full border-t border-[#eaeaea]" />
+  </article>
 
-        <article className="flex flex-col items-start justify-start w-full">
-          <div className="text-left py-2">
-            <span className="font-mulish font-bold text-[24px] text-[#373f41]">
-              Beds: 
-            </span>
-            <p className="mx-4 font-mulish font-semibold text-[20px] text-[#737b7d] inline">
-              0{desc.Beds} Beds
-            </p>
-          </div>
-          <hr className="w-full border-t border-[#eaeaea]" />
-        </article>
+  <article className="flex flex-col items-start justify-start w-full">
+    <div className="text-left py-2">
+      <span className="font-mulish font-bold text-[16px] md:text-[24px] text-[#373f41]">
+        Beds: 
+      </span>
+      <p className="mx-4 font-mulish font-semibold text-[12px] md:text-[20px] text-[#737b7d] inline">
+        0{desc.Beds} Beds
+      </p>
+    </div>
+    <hr className="w-full border-t border-[#eaeaea]" />
+  </article>
 
-        <article className="flex flex-col items-start justify-start w-full">
-          <div className="text-left py-2">
-            <span className="font-mulish font-bold text-[24px] text-[#373f41]">
-              Check-In: 
-            </span>
-            <p className="mx-4 font-mulish font-semibold text-[20px] text-[#737b7d] inline">
-              0{desc.Check_In}
-            </p>
-          </div>
-          <hr className="w-full border-t border-[#eaeaea]" />
-        </article>
+  <article className="flex flex-col items-start justify-start w-full">
+    <div className="text-left py-2">
+      <span className="font-mulish font-bold text-[16px] md:text-[24px] text-[#373f41]">
+        Check-In: 
+      </span>
+      <p className="mx-4 font-mulish font-semibold text-[12px] md:text-[20px] text-[#737b7d] inline">
+        0{desc.Check_In}
+      </p>
+    </div>
+    <hr className="w-full border-t border-[#eaeaea]" />
+  </article>
 
-        <article className="flex flex-col items-start justify-start w-full">
-          <div className="text-left py-2">
-            <span className="font-mulish font-bold text-[24px] text-[#373f41]">
-              Check-Out: 
-            </span>
-            <p className="font-mulish font-semibold text-[20px] text-[#737b7d] inline">
-              {desc.Check_Out}
-            </p>
-          </div>
-          <hr className="mx-4 w-full border-t border-[#eaeaea]" />
-        </article>
-      </section>
+  <article className="flex flex-col items-start justify-start w-full">
+    <div className="text-left py-2">
+      <span className="font-mulish font-bold text-[16px] md:text-[24px] text-[#373f41]">
+        Check-Out: 
+      </span>
+      <p className="mx-4 font-mulish font-semibold text-[12px] md:text-[20px] text-[#737b7d] inline">
+        {desc.Check_Out}
+      </p>
+    </div>
+    <hr className="mx-4 w-full border-t border-[#eaeaea]" />
+  </article>
+</section>
+
     </div>
   );
 };
