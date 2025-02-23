@@ -175,7 +175,7 @@ const Partner = () => {
       </div>
       
       {/* Button */}
-      <button className="font-mulish font-bold text-center text-[0.87rem] text-white bg-btcolor py-[0.93rem] px-[1.125rem] w-[7.3rem] mt-[3rem] md:mt-[3.5rem] lg:mt-[3.75rem]">
+      <button className="font-mulish font-bold text-center text-[0.87rem] text-white bg-btcolor py-[0.93rem] px-[1rem] w-[7.3rem] mt-[3rem] md:mt-[3.5rem] lg:mt-[3.75rem]">
         View Details
       </button>
     </div>

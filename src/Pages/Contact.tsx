@@ -32,7 +32,7 @@ function Contact() {
  
                                 <div className="flex flex-row space-x-3">
                                     <img src={message} className='w-[24.3px] h-[37.7px]'></img>
-                                    <p className="text-[#4b4b6d] text-left font-mulish sm:text-nowrap text-[18px] sm:text-[24px] "> +91-9910014421, 9891149697</p>
+                                    <p className="text-[#4b4b6d] text-left font-mulish sm:text-nowrap text-[18px] sm:text-[24px] break-words sm:whitespace-nowrap w-[80%] "> +91-9910014421, 9891149697</p>
                                 </div>
  
                             </div>
