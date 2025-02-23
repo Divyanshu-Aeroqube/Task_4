@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Chef from '../assets/Group.svg'
 import Laundry from '../assets/Group 107.svg'
 import cleaning from '../assets/52057-removebg-preview 1.svg'

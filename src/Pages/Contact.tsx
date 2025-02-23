@@ -20,17 +20,19 @@ function Contact() {
                             <div className="space-y-5 md:py-4">
                                 <div className="flex flex-row justify-baseline space-x-3 items-start">
                                     <img src={locationPin} className="mt-2 w-[22.5px] h-[32px]"></img>
-                                    <p className=" text-[#4b4b6d] text-left  font-mulish sm:text-[24px] text-[20px]  ">1187 Lake Forest City,<br /> Uttarakhand, 110006, India</p>
+                                    <p className=" text-[#4b4b6d] text-left  font-mulish text-[18px]  sm:text-[24px] ">1187 Lake Forest City,<br /> Uttarakhand, 110006, India</p>
                                 </div>
  
                                 <div className="flex flex-row space-x-3">
-                                    <img src={vector} className='mt-2 w-[32px] h-[24px]'></img>
-                                    <p className="text-[#4b4b6d] text-left font-mulish sm:text-[24px] text-[20px]"> support@villacrest.in</p>
-                                </div>
+    <img src={vector} className="mt-2 w-[32px] h-[24px]"></img>
+    <p className="text-[#4b4b6d] text-left font-mulish text-[18px] sm:text-[24px] break-words sm:whitespace-nowrap w-[80%]">
+        support@villacrest.in
+    </p>
+</div>
  
                                 <div className="flex flex-row space-x-3">
                                     <img src={message} className='w-[24.3px] h-[37.7px]'></img>
-                                    <p className="text-[#4b4b6d] text-left font-mulish sm:text-nowrap sm:text-[24px] text-[20px]"> +91-9910014421, 9891149697</p>
+                                    <p className="text-[#4b4b6d] text-left font-mulish sm:text-nowrap text-[18px] sm:text-[24px] "> +91-9910014421, 9891149697</p>
                                 </div>
  
                             </div>

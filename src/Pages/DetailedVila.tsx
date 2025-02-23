@@ -11,9 +11,7 @@ import house from '../assets/measured.svg'
 import DescriptionSection from '../Components/DescriptionSection'
 import AboutSection from '../Components/AboutSection'
 import Amenities from '../Components/Amenities'
-import SideImages from '../Components/SideImages';
 import SideImagesS from '../Components/SideImagesS';
-import HorizontalImageScroller from '../Components/HorizontalScroll';
 
 
 const DetailedVila = () => {

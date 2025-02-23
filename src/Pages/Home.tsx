@@ -24,7 +24,7 @@ const Partner = () => {
       <img
         src={About}
         alt="About Us"
-        className="w-full mx-auto sm:w-auto h-[22.31rem] sm:mr-[2.68rem] my-[2rem] lg:my-[4rem] sm:my-[7.65rem]"
+        className="w-full  mx-auto sm:w-auto h-[22.31rem] sm:mr-[2.68rem] my-[2rem] lg:my-[4rem] sm:my-[7.65rem]"
       />
     </div>
     <div className="w-full sm:w-[33.75rem] h-auto my-[2rem] sm:my-[5rem] text-center sm:text-left">
