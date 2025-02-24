@@ -17,7 +17,7 @@ import SideImagesS from '../Components/SideImagesS';
 const DetailedVila = () => {
   const { id } = useParams();
   const villa = villas.find((v) => v.id === Number(id));
-  const [activeSection, setActiveSection] = useState('description');
+  const [activeSection, setActiveSection] = useState('layout');
 
   if (!villa) {
     return <h1>Villa Not Found</h1>;
@@ -50,7 +50,7 @@ const DetailedVila = () => {
 
 
             <section className='w-full bg-[#f4f4f4] max-h-15'>
-              <section className=' flex justify-between items-center w-full md:w-[80%] md:ml-10   mt-15'>
+              <section className=' flex justify-between w-[90%] mx-auto  items-center  md:w-[80%] md:ml-10   mt-15'>
                 <h1
                   className={` py-3 cursor-pointer font-mulish text-[12px] md:text-[18px] font-bold text-[#8a8a8a] ${activeSection === 'layout' ? 'text-[#181725] border-b-4 border-[#6d87cb]' : ''}`}
                   onClick={() => setActiveSection('layout')}
