@@ -1,53 +1,31 @@
-import { useRef } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import React from "react";
 
-interface HorizontalImageScrollerProps {
+type SideImagesProps = {
   images: string[];
-}
+};
 
-export default function HorizontalImageScroller({ images }: HorizontalImageScrollerProps) {
-  const scrollRef = useRef<HTMLDivElement | null>(null); // Explicitly typed
-
-  const scroll = (direction: "left" | "right") => { // Explicit direction type
-    if (scrollRef.current) {
-      scrollRef.current.scrollBy({
-        left: direction === "left" ? -300 : 300,
-        behavior: "smooth",
-      });
-    }
-  };
-
+const HorizontalScroll: React.FC<SideImagesProps> = ({ images }) => {
   return (
-    <div className="relative w-full max-w-4xl mx-auto p-4 sm:block hidden">
-      <div className="flex items-center gap-2">
-        <button
-          onClick={() => scroll("left")}
-          className="p-2 border rounded-full shadow-md hover:bg-gray-100 transition"
-        >
-          <ChevronLeft />
-        </button>
-        <div
-          ref={scrollRef}
-          className="flex gap-4 overflow-x-auto scroll-smooth scrollbar-hide"
-          style={{ scrollSnapType: "x mandatory" }}
-        >
-          {images.map((src, index) => (
-            <img
-              key={index}
-              src={src}
-              alt={`Image ${index + 1}`}
-              className="w-72 h-48 object-cover rounded-lg shadow-md"
-              style={{ scrollSnapAlign: "center" }}
-            />
-          ))}
+    <section className="w-full overflow-x-auto whitespace-nowrap p-2 flex gap-4 
+      [&::-webkit-scrollbar]:h-2
+      [&::-webkit-scrollbar-track]:rounded-full
+      [&::-webkit-scrollbar-track]:bg-gray-100
+      [&::-webkit-scrollbar-thumb]:rounded-full
+      [&::-webkit-scrollbar-thumb]:bg-gray-300
+      dark:[&::-webkit-scrollbar-track]:bg-neutral-700
+      dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
+      
+      {images.map((image, index) => (
+        <div key={index} className="min-w-[150px] h-32 flex items-center justify-center bg-white rounded-lg overflow-hidden">
+          <img
+            src={image}
+            className="w-full h-full object-cover"
+            alt={`Image ${index}`}
+          />
         </div>
-        <button
-          onClick={() => scroll("right")}
-          className="p-2 border rounded-full shadow-md hover:bg-gray-100 transition"
-        >
-          <ChevronRight />
-        </button>
-      </div>
-    </div>
+      ))}
+    </section>
   );
-}
+};
+
+export default HorizontalScroll;

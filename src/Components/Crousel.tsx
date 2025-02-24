@@ -18,7 +18,7 @@ const Carousel = () => {
     return (
         <div className="relative w-4/5 mx-auto">
             {/* Image Container with LOWER HEIGHT */}
-            <div className="relative h-[16rem] sm:h-[20rem] md:h-[24rem] lg:h-[28rem] xl:h-[22rem] overflow-hidden rounded-lg">
+            <div className="relative h-[10rem] w-full sm:h-[20rem] md:h-[24rem] lg:h-[28rem] xl:h-[22rem] overflow-hidden rounded-lg">
                 {images.map((image, index) => (
                     <img
                         key={index}

@@ -38,9 +38,12 @@ function Contact() {
                             </div>
  
                             <div className="flex mt-7 space-x-4 mt- items-left">
-                                <img src={instragram} alt="" />
-                                <img src={youtube} alt="" />
-                                <img src={facebook} alt="" />
+                                <img src={instragram} alt=""
+                                onClick={() => window.open("https://www.instagram.com", "_blank")}  />
+                                <img src={youtube} alt=""
+                                onClick={() => window.open("https://www.youtube.com", "_blank")}  />
+                                <img src={facebook} alt=""
+                                onClick={() => window.open("https://www.facebook.com", "_blank")}  />
                             </div>
                         </div>
                     </div>

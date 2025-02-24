@@ -12,6 +12,7 @@ import image3 from "../assets/gallery-3.png"
 import image4 from "../assets/gallery-4.png"
 import image5 from "../assets/gallery-5.png"
 import image6 from "../assets/gallery-6.png"
+import { Link } from "react-router-dom"
 const Partner = () => {
   return (
     <>
@@ -227,7 +228,7 @@ const Partner = () => {
     {/* Button */}
     <div className="flex justify-center mt-[1.5rem] md:mt-[1.75rem]">
       <button className="font-mulish font-bold text-center text-[0.87rem] text-white bg-btcolor py-[0.9rem] px-[1.1rem] w-[7.3rem]">
-        Contact
+      <Link to="/contact">Contact</Link>
       </button>
     </div>
 

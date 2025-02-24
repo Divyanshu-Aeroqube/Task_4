@@ -74,17 +74,26 @@ const Navbar = () => {
             { to: "/villas", label: "Villas" },
             { to: "/services", label: "Services" },
             { to: "/partner", label: "Partner with us" },
-            { to: "/contact", label: "Contact" },
+            
           ].map(({ to, label }) => (
             <NavLink
               key={to}
               to={to}
               onClick={() => setIsOpen(false)} // Close menu when a link is clicked
-              className="text-lg font-semibold text-gray-700 hover:text-[#6d87cb] transition-colors"
+              className={({ isActive }) =>
+                `text-[0.85rem] font-semibold font-mulish transition-colors duration-300 ${
+                  isActive
+                    ? "text-[#6d87cb] font-bold"
+                    : "text-navitomcolor hover:text-[#6d87cb]"
+                }`
+              }
             >
               {label}
             </NavLink>
           ))}
+          <div className="bg-btcolor py-[1rem] px-[0.5rem] text-[0.85rem] h-[1rem] w-[5rem] md:h-[2.65rem] md:w-[7.06rem] font-mulish font-bold text-white text-center flex items-center justify-center" onClick={() => setIsOpen(false)} >
+            <Link to="/contact">Contact</Link>
+          </div>
         </div>
       </div>
 

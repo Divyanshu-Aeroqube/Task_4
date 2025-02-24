@@ -43,7 +43,7 @@ const VCarousel = () => {
   className="absolute top-1/2 left-[1rem] transform -translate-y-1/2 z-30 p-2 transition-all hover:scale-110"
   onClick={goToPrevious}
 >
-  <svg className="w-[3rem] h-[3rem] text-white opacity-90 hover:opacity-100 transition-opacity" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg className="w-[2rem] h-[2rem] lg:w-[3rem] lg:h-[3rem] text-white opacity-90 hover:opacity-100 transition-opacity" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" d="M16 4l-8 8 8 8"/>
   </svg>
 </button>
@@ -52,7 +52,7 @@ const VCarousel = () => {
   className="absolute top-1/2 right-[1rem] transform -translate-y-1/2 z-30 p-2 transition-all hover:scale-110"
   onClick={goToNext}
 >
-  <svg className="w-[3rem] h-[3rem] text-white opacity-90 hover:opacity-100 transition-opacity" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg className="w-[2rem] h-[2rem] lg:w-[3rem] lg:h-[3rem] text-white opacity-90 hover:opacity-100 transition-opacity" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" d="M8 4l8 8-8 8"/>
   </svg>
 </button>

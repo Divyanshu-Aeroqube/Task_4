@@ -12,6 +12,7 @@ import DescriptionSection from '../Components/DescriptionSection'
 import AboutSection from '../Components/AboutSection'
 import Amenities from '../Components/Amenities'
 import SideImagesS from '../Components/SideImagesS';
+import HorizontalScroll from '../Components/HorizontalScroll';
 
 
 const DetailedVila = () => {
@@ -31,6 +32,8 @@ const DetailedVila = () => {
             <section className='w-full'>
               <VCrousel />
             </section>
+
+            <section className='block mt-4 lg:hidden '><HorizontalScroll images={villa.images}/></section>
             <section className='w-full h-auto rounded-[6.1px] shadow-[0_7.6px_38px_0_rgba(0,0,0,0.07)]'>
               <article className="flex flex-col justify-between gap-2 md:gap-4 p-6 md:p-10 mt-10 md:mt-20">
                 <header className="flex justify-between font-bold">
