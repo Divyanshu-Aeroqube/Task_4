@@ -9,7 +9,7 @@ import youtube from '../assets/Group 3200.svg'
 function Contact() {
     return (
         <div className=":relative items-center py-16 sm:py-20 lg:pl-16" >
-            <div className="contact-container lg:w-[82%] xl:w-[78%] mb-10 mx-auto sm:w-[80%] w-[70%]  bg-[#e2eaff] ">
+            <div className="contact-container lg:w-[82%] xl:w-[78%] mb-10 mx-auto sm:w-[90%] w-[90%]  bg-[#e2eaff] ">
                 <article className="flex flex-col lg:flex-row items-center justify-center md:relative pt-10 md:pt-12">
  
                     <div className="contact-details lg:absolute bg-white shadow-xl lg:w-[45%] lg:h-[65%]
